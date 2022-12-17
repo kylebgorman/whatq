@@ -18,7 +18,6 @@ main() {
        printf "%s\t" "${LGCODE}"
        ./whatq.py --xz "${LOCAL}"
        rm ${LOCAL}
-       echo
    done
 }
 

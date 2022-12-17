@@ -53,7 +53,7 @@ def main(args: argparse.ArgumentParser) -> None:
     # Logs the counts.
     for qt, count in qt_counts.most_common(1):
         qt_chars = QUOTE_TYPES[qt]
-        print(f"{qt} ({' '.join(qt_chars)}):\t{count:,}")
+        print(f"{qt}\t({' '.join(qt_chars)})\t{count:,}")
 
 
 if __name__ == "__main__":
